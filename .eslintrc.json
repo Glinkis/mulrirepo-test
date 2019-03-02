@@ -20,10 +20,7 @@
     },
     "project": "./tsconfig.json"
   },
-  "plugins": [
-    "jest",
-    "react-hooks"
-  ],
+  "plugins": ["jest", "react-hooks"],
   "rules": {
     "no-shadow": "off",
     "react/jsx-filename-extension": "off",

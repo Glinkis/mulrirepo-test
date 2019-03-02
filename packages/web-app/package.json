@@ -9,7 +9,13 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "clean": "rimraf .cache,public",
+    "lint": "eslint **/*.{js,jsx,ts,tsx} && prettier **/*",
     "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": [
+      "../../.eslintrc.json"
+    ]
   },
   "dependencies": {
     "gatsby": "2.1.19",
