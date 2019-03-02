@@ -8,7 +8,7 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "clean": "rimraf .cache,public",
+    "clean": "rimraf .cache public",
     "lint": "eslint **/*.{js,jsx,ts,tsx} && prettier **/*",
     "test": "jest"
   },
@@ -16,7 +16,9 @@
     "extends": "../../.eslintrc.json"
   },
   "dependencies": {
+    "@emotion/core": "10.0.7",
     "gatsby": "2.1.19",
+    "gatsby-plugin-emotion": "4.0.4",
     "gatsby-plugin-typescript": "2.0.9",
     "react": "16.8.3",
     "react-dom": "16.8.3"
