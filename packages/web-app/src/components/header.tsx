@@ -4,15 +4,11 @@ import { Link } from 'gatsby'
 
 const style = css`
   background: rebeccapurple;
-  marginbottom: 1.45rem;
 
-  > div {
-    margin: 0 auto;
-    max-width: 960;
-    padding: 1.45rem 1.0875rem;
+  > h1 {
+    padding: 1.5rem;
 
-    > h1 {
-      margin: 0;
+    > a {
       color: white;
       text-decoration: none;
     }
@@ -21,11 +17,9 @@ const style = css`
 
 const Header: FC = ({ children }) => (
   <header css={style}>
-    <div>
-      <h1>
-        <Link to="/">{children}</Link>
-      </h1>
-    </div>
+    <h1>
+      <Link to="/">{children}</Link>
+    </h1>
   </header>
 )
 

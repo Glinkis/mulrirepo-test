@@ -1,17 +1,11 @@
 import React from 'react'
-import { css } from '@emotion/core'
+import Layout from '../components/layout'
 import Header from '../components/header'
 
-const style = css`
-  margin: 0;
-  padding: 1em;
-  font-family: sans-serif;
-  color: hotpink;
-  background: black;
-`
-
-const IndexPage = () => {
-  return <Header css={style} />
-}
+const IndexPage = () => (
+  <Layout>
+    <Header>Header</Header>
+  </Layout>
+)
 
 export default IndexPage
