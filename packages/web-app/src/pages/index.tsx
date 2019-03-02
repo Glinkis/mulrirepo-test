@@ -1,5 +1,6 @@
 import React from 'react'
 import { css } from '@emotion/core'
+import Header from '../components/header'
 
 const style = css`
   margin: 0;
@@ -10,7 +11,7 @@ const style = css`
 `
 
 const IndexPage = () => {
-  return <h1 css={style}>Hi people</h1>
+  return <Header css={style} />
 }
 
 export default IndexPage
