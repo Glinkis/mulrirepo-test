@@ -10,7 +10,8 @@
     "start": "gatsby develop",
     "clean": "rimraf .cache public",
     "lint": "eslint **/*.{js,jsx,ts,tsx} && prettier **/*",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gatsby build && gh-pages -d public -e ./web-app"
   },
   "eslintConfig": {
     "extends": "../../.eslintrc.json"
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "4.1.11",
+    "gh-pages": "^2.0.1",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.1.0",
     "react-testing-library": "6.0.0",
