@@ -11,7 +11,7 @@
     "clean": "rimraf .cache public",
     "lint": "eslint **/*.{js,jsx,ts,tsx} && prettier **/*",
     "test": "jest",
-    "deploy": "gatsby build && gh-pages -d public -e ./packages/web-app"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -e ./packages/web-app"
   },
   "eslintConfig": {
     "extends": "../../.eslintrc.json"
