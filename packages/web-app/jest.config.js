@@ -1,7 +1,6 @@
 module.exports = {
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
-    '^.+\\.jsx?$': '<rootDir>/jest-preprocess.js',
     '.+\\.(jpe?g|png|gif|eot|otf|svg|ttf|woff|woff2)$':
       '<rootDir>/__mocks__/file-mock.js',
   },
