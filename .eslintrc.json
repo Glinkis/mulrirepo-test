@@ -26,6 +26,7 @@
     "no-shadow": "off",
     "no-unused-vars": "off",
     "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react-hooks/rules-of-hooks": "error",
