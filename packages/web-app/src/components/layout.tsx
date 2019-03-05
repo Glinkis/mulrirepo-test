@@ -6,7 +6,7 @@ import themeB from '../themes/theme-b'
 const GlobalStyle = createGlobalStyle`
   body {
     font-family: sans-serif;
-    background-color: #eaeaea;
+    background-color: rgb(41, 45, 62);
   }
 
   * {

@@ -2,7 +2,7 @@ import { Theme } from '../utils/styled'
 
 const theme: Theme = {
   colors: {
-    primary: 'darkblue',
+    primary: '#f07178',
   },
 }
 
