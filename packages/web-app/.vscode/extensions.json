@@ -1,0 +1,13 @@
+{
+  // List of extensions which should be recommended for users of this workspace.
+  // See http://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "mgmcdermott.vscode-language-babel",
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "kumar-harsh.graphql-for-vscode",
+    "orta.vscode-jest",
+    "jpoissonnier.vscode-styled-components"
+  ]
+}
