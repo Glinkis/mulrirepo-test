@@ -3,17 +3,19 @@ import { createGlobalStyle, ThemeProvider } from '../utils/styled'
 import themeA from '../themes/theme-a'
 import themeB from '../themes/theme-b'
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: sans-serif;
-    background-color: rgb(41, 45, 62);
-  }
+const GlobalStyle = React.memo(
+  createGlobalStyle`
+    body {
+      font-family: sans-serif;
+      background-color: rgb(41, 45, 62);
+    }
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
-`
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  `,
+)
 
 const useThemeTransition = () => {
   const [theme, setTheme] = React.useState(themeA)
