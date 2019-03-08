@@ -6,6 +6,7 @@
   "author": "Victor Glindås",
   "license": "MIT",
   "scripts": {
+    "serve": "gatsby serve",
     "build": "gatsby build",
     "start": "gatsby develop",
     "clean": "rimraf .cache public",
