@@ -1,11 +1,5 @@
 import * as styledComponents from 'styled-components'
-import { Color } from 'csstype'
-
-export interface Theme {
-  colors: {
-    primary: Color
-  }
-}
+import Theme from '../themes/theme'
 
 const {
   default: styled,

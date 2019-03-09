@@ -1,4 +1,4 @@
-import { Theme } from '../utils/styled'
+import Theme from './theme'
 
 const theme: Theme = {
   colors: {
