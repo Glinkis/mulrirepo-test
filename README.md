@@ -1,0 +1,2 @@
+# multirepo-test
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f9f7fedde2e2422687db6fc9f2c6494f)](https://app.codacy.com/app/Glinkis/multirepo-test?utm_source=github.com&utm_medium=referral&utm_content=Glinkis/multirepo-test&utm_campaign=Badge_Grade_Settings)
